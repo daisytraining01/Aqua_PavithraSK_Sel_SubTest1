@@ -7,8 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "/summercamp_Pavithra/src/test/java/question3",
-		glue={"/summercamp_Pavithra/src/test/java/question3/RegistrationTagStepDef.java"},
+		features = "./src/test/java/question3",
+		glue={"question3"},
 		monochrome=false,
 		strict=true,
 		dryRun=false,
